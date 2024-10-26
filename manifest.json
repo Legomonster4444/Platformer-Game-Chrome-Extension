@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "Platformer Game",
+    "version": "1.0",
+    "description": "A simple platformer game.",
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "permissions": ["activeTab"],
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "icons": {
+      "16": "output-onlinepngtools (3).png",
+      "48": "output-onlinepngtools (4).png",
+      "128": "Platformer Game Chrome Extension Icon.png"
+    }
+  }  
